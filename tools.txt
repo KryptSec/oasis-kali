@@ -1,0 +1,9 @@
+nmap nikto whatweb wpscan nuclei
+gobuster ffuf dirb wfuzz
+sqlmap hydra john hashcat
+curl wget netcat socat
+radare2 gdb binwalk strings objdump xxd file
+tshark tcpdump
+exiftool steghide foremost
+python3 php perl bash
+cat grep find ls sed awk jq
