@@ -102,7 +102,7 @@ RUN pip3 install --no-cache-dir --break-system-packages \
     requests==2.32.3 \
     pwntools==4.13.1 \
     beautifulsoup4==4.12.3 \
-    lxml==5.3.0
+    lxml==6.1.3
 
 # --- Scripting ---
 RUN apt-get update && \

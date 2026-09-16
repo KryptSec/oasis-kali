@@ -1,0 +1,5 @@
+{
+  "name": "oasis-kali",
+  "install": "for d in .cursor ./oasis-kali/.cursor /agent/repos/oasis-kali/.cursor /workspace/oasis-kali/.cursor /workspace/.cursor; do [ -f \"$d/install.sh\" ] && exec bash \"$d/install.sh\"; done; echo 'install.sh not found' >&2; exit 1",
+  "start": "for d in .cursor ./oasis-kali/.cursor /agent/repos/oasis-kali/.cursor /workspace/oasis-kali/.cursor /workspace/.cursor; do [ -f \"$d/start.sh\" ] && exec bash \"$d/start.sh\"; done; echo 'start.sh not found' >&2; exit 1"
+}
